@@ -2,7 +2,7 @@ export interface Env {
   LINEAR_API_KEY: string;
 }
 
-const LINEAR_MCP_URL = "https://mcp.linear.app";
+const LINEAR_MCP_URL = "https://mcp.linear.app/mcp";
 
 export default {
   async fetch(request: Request, env: Env, ctx: ExecutionContext): Promise<Response> {
